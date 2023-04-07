@@ -6,7 +6,6 @@
 <script setup>
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
-
 </script>
 
 <style lang="scss">
