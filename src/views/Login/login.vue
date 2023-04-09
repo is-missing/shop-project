@@ -1,7 +1,8 @@
 <template>
   <div>
-    Login
-    {{ store.state.name }}
+    <h1>Login</h1>
+    <p>{{ store.state.name }}</p>
+    <button class="btn">登录</button>
   </div>
 </template>
 
@@ -14,4 +15,8 @@ const store = useStore()
 // const route = useRoute()
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.btn {
+  @apply bg-red-300 p-4 rounded-lg hover: (bg-green-400) transition-all duration-150;
+}
+</style>
